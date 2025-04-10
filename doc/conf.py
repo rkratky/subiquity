@@ -107,19 +107,25 @@ html_context = {
     # NOTE: If set, links for viewing the documentation source files
     #       and creating GitHub issues are added at the bottom of each page.
     "github_url": "https://github.com/canonical/subiquity",
+    #
     # Docs branch in the repo; used in links for viewing the source files
-    #
     "repo_default_branch": "main",
-    # Docs location in the repo; used in links for viewing the source files
     #
+    # Docs location in the repo; used in links for viewing the source files
     "repo_folder": "/doc/",
+    #
     # To enable or disable the Previous / Next buttons at the bottom of pages
     # Valid options: none, prev, next, both
     "sequential_nav": "none",
+    #
     # To enable listing contributors on individual pages, set to True
     "display_contributors": False,
+    #
     # Required for feedback button
-    # "github_issues": "enabled",
+    "github_issues": "enabled",
+    #
+    # URL for opening issues
+    "launchpad_issues": "https://bugs.launchpad.net/subiquity/+filebug",
 }
 
 
@@ -151,7 +157,7 @@ templates_path = [".sphinx/_templates"]
 # html_css_files = []
 
 # Adds custom JavaScript files, located under 'html_static_path'
-# html_js_files = ["github_issue_links.js"]
+# html_js_files = ["issue_links.js"]
 
 
 #############
