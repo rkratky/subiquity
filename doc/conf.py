@@ -150,14 +150,14 @@ html_theme_options = {
 
 
 # Template and asset locations
-# html_static_path = ["_static"]
+html_static_path = ["_static"]
 templates_path = [".sphinx/_templates"]
 
 # Adds custom CSS files, located under 'html_static_path'
 # html_css_files = []
 
 # Adds custom JavaScript files, located under 'html_static_path'
-# html_js_files = ["issue_links.js"]
+html_js_files = ["issue_links.js"]
 
 
 #############
@@ -251,7 +251,7 @@ rst_epilog = """
 #
 # TODO: To disable the button, uncomment this.
 
-# disable_feedback_button = True
+disable_feedback_button = True
 
 
 # Your manpage URL
